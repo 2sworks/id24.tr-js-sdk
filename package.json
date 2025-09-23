@@ -1,0 +1,24 @@
+{
+  "name": "@2sworks/identify-sdk",
+  "version": "1.0.0",
+  "description": "Private Identify SDK for use in customer integrations",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "serve": "npx serve -l 8080",
+    "build-and-serve": "npm run build && npm run serve"
+  },
+  "devDependencies": {
+    "rollup": "^4.50.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2sworks/id24.tr-js-sdk.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "2sworks",
+  "private": false
+}

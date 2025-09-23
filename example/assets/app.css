@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.config-container {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.call-container {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+}
+
+.status {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.waiting {
+    color: #ff9800;
+}
+
+.connected {
+    color: #4caf50;
+}
+
+.video-preview {
+    width: 100%;
+    height: 260px;
+    background: #000;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn-call {
+    background: #4caf50;
+}
+
+.btn-call:hover {
+    background: #43a047;
+}
+
+.btn-end {
+    background: #f44336;
+}
+
+.btn-end:hover {
+    background: #e53935;
+}
+
+.btn-wait {
+    background: #2196f3;
+}
+
+.btn-wait:hover {
+    background: #1976d2;
+}
+
+body > div {
+    display: none;
+}
+
+body > div.active {
+    display: block;
+}
+
+.form-container {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-container h3 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn-next {
+    background: #4caf50;
+}
+
+.btn-next:hover {
+    background: #43a047;
+}
+
+.btn-prev {
+    background: #2196f3;
+}
+
+.btn-prev:hover {
+    background: #1976d2;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    padding: 20px;
+}
+
+.config-container {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.config-container h3 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap; /* Taşınca alta geçsin */
+    gap: 12px; /* inputlar arası boşluk */
+    margin-bottom: 12px;
+}
+
+.form-row input {
+    flex: 1;
+    min-width: 120px; /* küçülme sınırı, mobilde alta geçer */
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* 2 kolon için */
+.col-2 input {
+    flex: 1;
+}
+
+/* 4 kolon için */
+.col-4 input {
+    flex: 1;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: #fff;
+    appearance: none; /* tarayıcı default okunu gizler */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+select:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+    outline: none;
+}
+
+select:hover {
+    border-color: #888;
+}
+
+video {
+    width: 240px;
+    height: 180px;
+    object-fit: contain;
+    background: black;
+}
