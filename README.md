@@ -7,7 +7,7 @@ Identify JS SDK, web platformları için geliştirilmiş bir video çağrı SDK'
 ## ✨ Kurulum
 
 ```html
-<script src="https://your-cdn.com/dist/identify-sdk.bundle.js"></script>
+<script src="https://raw.githubusercontent.com/2sworks/id24.tr-js-sdk/2.4.6/dist/identify-sdk.bundle.min.js"></script>
 ```
 
 ## 📁 Yapı
@@ -125,7 +125,7 @@ Identify SDK içinde aşağıdaki log seviyeleri kullanılabilir:
 `identify-sdk.bundle.js` dosyasını HTML'e dahil edin:
 
 ```html
-<script src="../dist/identify-sdk.bundle.js?v=YOUR_VERSION"></script>
+<script src="https://raw.githubusercontent.com/2sworks/id24.tr-js-sdk/2.4.6/dist/identify-sdk.bundle.min.js"></script>
 ```
 
 ### 1. SDK Kurulumu
